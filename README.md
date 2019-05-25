@@ -11,11 +11,11 @@
 roslaunch  delta_lidar view_delta_lidar.launch
 
 # How to run 3iRobotics lidar ros package:
-* 2.1 ROS master:
+1) ROS master:
 ```
 roscore
 ```
-* 2.1 run publish_node:
+2) run publish_node:
 ```
 rosrun delta_lidar delta_lidar_node
 ```
@@ -23,7 +23,7 @@ or
 ```
 roslaunch delta_lidar delta_lidar.launch
 ```
-* 2.2 run subscribe_node:
+3) run subscribe_node:
 ```
 rosrun delta_lidar delta_lidar_node_client
 ```
