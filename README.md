@@ -1,4 +1,4 @@
-# How to build 3iRobotics Delta_2A Lidar ros package:
+# How to build Delta_2A Lidar ros package:
 1) cd ~/catkin_ws/src/
 2) git clone https://github.com/40423226/delta_lidar.git
 3) cd ~/catkin_ws/
@@ -7,10 +7,12 @@
 5) ls /dev/ttyUSB*
 3) sudo chmod 666 /dev/ttyUSB0
 
-# How to run 3iRobotics lidar rviz:
+# How to run Delta_2A Lidar rviz:
+```
 roslaunch  delta_lidar view_delta_lidar.launch
+```
 
-# How to run 3iRobotics lidar ros package:
+# How to run Delta_2A Lidar ros package:
 1) ROS master:
 ```
 roscore
@@ -19,7 +21,7 @@ roscore
 ```
 rosrun delta_lidar delta_lidar_node
 ```
-or
+ or
 ```
 roslaunch delta_lidar delta_lidar.launch
 ```
