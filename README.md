@@ -9,7 +9,7 @@
 
 # How to run Delta_2A Lidar rviz:
 ```
-roslaunch  delta_lidar view_delta_lidar.launch
+roslaunch delta_lidar view_delta_lidar.launch
 ```
 
 # How to run Delta_2A Lidar ros package:
